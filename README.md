@@ -1,4 +1,4 @@
-# CORS Proxy Service
+# Cloudflare Proxy Service
 
 A lightweight, fast CORS proxy service built for Cloudflare Workers that enables cross-origin requests to any website by bypassing CORS restrictions.
 

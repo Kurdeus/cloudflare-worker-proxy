@@ -1,5 +1,5 @@
 {
-  "name": "simple-proxy",
+  "name": "cloudflare-worker-proxy",
   "private": true,
   "version": "1.0.0",
   "scripts": {
