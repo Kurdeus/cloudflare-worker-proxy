@@ -151,38 +151,6 @@ if __name__ == "__main__":
 | `X-Cookie` | Maps to `Cookie` header for the target request |
 | `X-Set-Cookie` | Contains `Set-Cookie` from target response |
 
-## Deployment
-
-### Cloudflare Workers
-
-1. **Install Wrangler CLI**
-   ```bash
-   npm install -g @cloudflare/wrangler
-   ```
-
-2. **Login to Cloudflare**
-   ```bash
-   wrangler login
-   ```
-
-3. **Create `wrangler.toml`**
-   ```toml
-   name = "cors-proxy"
-   main = "src/index.js"
-   compatibility_date = "2023-01-01"
-   
-   [env.production]
-   name = "cors-proxy"
-   ```
-
-4. **Deploy**
-   ```bash
-   wrangler deploy
-   ```
-
-### Environment Variables
-
-No environment variables required. The service works out of the box.
 
 ## Limitations
 
